@@ -5,13 +5,13 @@ A simple static replacement for `hl-treefarm.com`, designed for GitHub Pages. It
 ## Important items to update before publishing
 
 1. **Contact information:** Search `index.html` for `Update before launch` and replace the placeholder phone number. Confirm the preferred email and street address.
-2. **Announcement bar:** Near the top of `index.html`, edit the block marked `ANNOUNCEMENT`. This is the prominent bar for Christmas hours, prices, sold-out notices, closures, and directions.
-3. **Christmas details:** Update seasonal hours, prices, availability, and offerings before each season.
-4. **Images:** The included SVG artwork is an original lightweight placeholder. Replace it with farm photographs whenever desired; the relevant filenames are listed below.
+2. **Christmas season info (edit every year):** Open `christmas_season_info.html`. Update open dates, hours, prices, tree availability, payment notes, and the short announcement at the top. That one file feeds both the top announcement bar and the Christmas section on the home page.
+3. **Images:** The included SVG artwork is an original lightweight placeholder. Replace it with farm photographs whenever desired; the relevant filenames are listed below.
 
 ## Files most likely to be edited
 
-- `index.html` — all page text and the announcement bar
+- `christmas_season_info.html` — yearly Christmas dates, hours, prices, and announcement
+- `index.html` — lasting page text (about the farm, contact, directions)
 - `style.css` — colors, spacing, layout, and typography
 - `images/hero-valley.svg` — main banner
 - `images/christmas-field.svg` — Christmas section banner
