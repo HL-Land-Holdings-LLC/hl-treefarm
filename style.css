@@ -104,14 +104,19 @@ p { margin: 0 0 1.15rem; }
   align-items: center;
   justify-content: center;
   gap: .75rem 1.25rem;
-  padding: .8rem clamp(1rem, 5vw, 4.5rem);
+  padding: 1rem clamp(1rem, 5vw, 4.5rem);
   background: var(--gold-light);
   border-bottom: 1px solid rgba(82, 56, 12, .2);
   color: #4d390f;
   text-align: center;
 }
 .announcement strong { text-transform: uppercase; letter-spacing: .08em; font-size: .82rem; }
-.announcement a { font-weight: 900; }
+.announcement a {
+  font-size: clamp(1.35rem, 2.4vw, 1.85rem);
+  font-weight: 900;
+  text-decoration: underline;
+  text-underline-offset: .15em;
+}
 
 .hero {
   position: relative;
@@ -163,6 +168,18 @@ p { margin: 0 0 1.15rem; }
   width: min(1180px, calc(100% - 2.5rem));
   margin: auto;
   padding: clamp(4.5rem, 9vw, 8rem) 0;
+}
+#about {
+  padding-bottom: clamp(2rem, 4vw, 3rem);
+}
+.section-christmas {
+  padding-top: clamp(2rem, 4vw, 3rem);
+  scroll-margin-top: 1rem;
+}
+#christmas-heading,
+#season-details,
+#visit {
+  scroll-margin-top: 1rem;
 }
 .section-heading { max-width: 760px; margin-bottom: 2.8rem; }
 .section-heading.centered { margin-left: auto; margin-right: auto; text-align: center; }
@@ -260,6 +277,7 @@ p { margin: 0 0 1.15rem; }
   display: grid;
   grid-template-columns: 1.35fr .85fr;
   gap: 2rem;
+  align-items: center;
   margin-top: 4rem;
   padding: clamp(1.5rem, 4vw, 3rem);
   background: var(--forest-900);
@@ -299,12 +317,17 @@ p { margin: 0 0 1.15rem; }
   color: #e4eddf;
 }
 .checklist {
+  width: fit-content;
+  max-width: 100%;
+  height: fit-content;
+  justify-self: center;
   padding: 1.35rem;
   background: rgba(255,255,255,.09);
   border: 1px solid rgba(255,255,255,.13);
   border-radius: 14px;
 }
 .checklist ul { padding-left: 1.2rem; margin-bottom: 0; }
+.checklist li { max-width: 28rem; }
 
 .stewardship {
   width: min(1180px, calc(100% - 2.5rem));

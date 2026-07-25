@@ -16,7 +16,7 @@
 window.CHRISTMAS_SEASON_INFO = {
   /* ANNOUNCEMENT: Short message at the top of the home page */
   announcement: `
-    <a href="#christmas">2026 Christmas season details</a>
+    <a href="#season-details">2026 Christmas season details</a>
   `,
 
   /* DETAILS: Shown in the Christmas section */
