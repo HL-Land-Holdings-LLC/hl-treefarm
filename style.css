@@ -274,16 +274,18 @@ p { margin: 0 0 1.15rem; }
 }
 .season-facts > div {
   display: grid;
-  grid-template-columns: 7.5rem 1fr;
-  gap: .75rem 1rem;
+  grid-template-columns: minmax(7.5rem, 11rem) 1fr;
+  gap: .35rem 1rem;
   padding-bottom: .85rem;
   border-bottom: 1px solid rgba(255,255,255,.12);
+  align-items: start;
 }
 .season-facts > div:last-child {
   padding-bottom: 0;
   border-bottom: 0;
 }
 .season-facts dt {
+  grid-column: 1;
   margin: 0;
   color: var(--gold-light);
   font-weight: 700;
@@ -292,6 +294,7 @@ p { margin: 0 0 1.15rem; }
   text-transform: uppercase;
 }
 .season-facts dd {
+  grid-column: 2;
   margin: 0;
   color: #e4eddf;
 }

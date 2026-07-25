@@ -23,12 +23,12 @@ window.CHRISTMAS_SEASON_INFO = {
   details: `
     <p class="eyebrow">Before you come</p>
     <h3>Season details</h3>
-    <p>Last update July 24, 2026. Check <a href="https://facebook.com/hl-treefarm" target="_blank" rel="noopener">facebook.com/hl-treefarm</a> and our voicemail for the latest updates.</p>
+    <p>Last updated July 24, 2026. Check <a href="https://facebook.com/hl-treefarm" target="_blank" rel="noopener">facebook.com/hl-treefarm</a> and our voicemail for the latest.</p>
 
     <dl class="season-facts">
       <div>
         <dt>Open dates and hours</dt>
-        <dd>10 am to 5 pm Black Friday and the following three Saturdays and Sundays</dd>
+        <dd>10 am to 5 pm<br>Black Friday and the following three Saturdays and Sundays</dd>
       </div>
       <div>
         <dt>Prices</dt>
@@ -39,7 +39,7 @@ window.CHRISTMAS_SEASON_INFO = {
       </div>
       <div>
         <dt>Also offered</dt>
-        <dd>Wreaths and greenery, tree shaking and baling, warm-up outdoor fire pit with s'mores for sale.</dd>
+        <dd>Free hand saws to borrow, wreaths and greenery for sale, tree shaking and baling, warm-up outdoor fire pit with s'mores for sale.</dd>
       </div>
       <div>
         <dt>Payment</dt>
