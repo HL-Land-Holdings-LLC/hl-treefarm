@@ -2,6 +2,13 @@
 
 A simple static replacement for `hl-treefarm.com`, designed for GitHub Pages. Its structure intentionally resembles `parkus/parkus.github.io`: one hand-editable `index.html`, a stylesheet, a small script, and an `images/` directory.
 
+## License
+
+Split licensing — see [`LICENSE`](LICENSE):
+
+- **Code and text** (HTML, CSS, JS, docs): MIT
+- **Images and media** (everything in `images/`, including SVGs, plus other media such as PDFs): © HL Land Holdings LLC, all rights reserved — no reuse without written permission
+
 ## Important items to update before publishing
 
 1. **Contact information:** Search `index.html` for `Update before launch` and replace the placeholder phone number. Confirm the preferred email and street address.

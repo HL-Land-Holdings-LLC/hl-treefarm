@@ -62,8 +62,9 @@ p { margin: 0 0 1.15rem; }
 }
 
 .nav {
-  position: relative;
-  z-index: 20;
+  position: sticky;
+  top: 0;
+  z-index: 100;
   min-height: 72px;
   display: flex;
   align-items: center;
@@ -72,6 +73,7 @@ p { margin: 0 0 1.15rem; }
   padding: .8rem clamp(1rem, 5vw, 4.5rem);
   background: rgba(19, 38, 26, .97);
   color: var(--white);
+  box-shadow: 0 8px 24px rgba(12, 28, 18, .28);
 }
 .brand {
   display: flex;
@@ -174,12 +176,16 @@ p { margin: 0 0 1.15rem; }
 }
 .section-christmas {
   padding-top: clamp(2rem, 4vw, 3rem);
-  scroll-margin-top: 1rem;
 }
+#about,
+#christmas,
 #christmas-heading,
 #season-details,
-#visit {
-  scroll-margin-top: 1rem;
+#visit,
+#other,
+#contact,
+#home {
+  scroll-margin-top: 5.5rem;
 }
 .section-heading { max-width: 760px; margin-bottom: 2.8rem; }
 .section-heading.centered { margin-left: auto; margin-right: auto; text-align: center; }
