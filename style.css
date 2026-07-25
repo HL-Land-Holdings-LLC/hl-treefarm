@@ -167,6 +167,9 @@ p { margin: 0 0 1.15rem; }
 .section-heading { max-width: 760px; margin-bottom: 2.8rem; }
 .section-heading.centered { margin-left: auto; margin-right: auto; text-align: center; }
 .section-heading.centered p { margin-left: auto; margin-right: auto; max-width: 720px; }
+@media (min-width: 700px) {
+  .heading-oneline { white-space: nowrap; }
+}
 .lead { font-size: 1.28rem; font-weight: 700; color: var(--forest-800); }
 .two-column { display: grid; grid-template-columns: 1.08fr .92fr; gap: clamp(2rem, 6vw, 5rem); align-items: start; }
 .fact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
@@ -193,7 +196,10 @@ p { margin: 0 0 1.15rem; }
 .image-break > div { width: 100%; padding: 5rem 1.5rem 2rem; text-align: center; background: linear-gradient(transparent, rgba(13, 30, 19, .85)); }
 .image-break span { display: inline-block; max-width: 800px; color: var(--white); font-family: "Libre Baskerville", serif; font-size: clamp(1.25rem, 3vw, 2rem); }
 .image-break-trees { background-image: url("images/christmas-field.svg"); }
-.image-break-lake { background-image: url("images/lake-wetland.svg"); }
+.image-break-lake {
+  background-image: url("images/autumn%20farm.png");
+  background-position: center 25%; /* lower % = show more of the top */
+}
 
 
 .christmas-banner {
@@ -228,6 +234,17 @@ p { margin: 0 0 1.15rem; }
 .card-grid { display: grid; gap: 1.25rem; }
 .card-grid.three { grid-template-columns: repeat(3, 1fr); }
 .card-grid.four { grid-template-columns: repeat(4, 1fr); }
+.card-grid.fluid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 1.25rem;
+}
+.card-grid.fluid > * {
+  flex: 1 1 260px;
+  max-width: min(100%, 340px);
+}
 .feature-card, .plain-card {
   background: var(--white);
   border: 1px solid #e3e8df;
