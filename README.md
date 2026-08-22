@@ -21,8 +21,7 @@ Split licensing — see [`LICENSE`](LICENSE):
 - `index.html` — lasting page text (about the farm, contact, directions)
 - `style.css` — colors, spacing, layout, and typography
 - `images/hero-valley.svg` — main banner
-- `images/christmas-field.svg` — Christmas section banner
-- `images/lake-wetland.svg` — land-stewardship banner
+- `images/favicon.svg` — site icon
 
 JPG, PNG, WebP, and SVG images all work. To substitute a photo, either give it the same filename or update the corresponding `url(...)` in `style.css`.
 
