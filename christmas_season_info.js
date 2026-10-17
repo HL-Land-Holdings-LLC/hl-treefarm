@@ -39,7 +39,7 @@ window.CHRISTMAS_SEASON_INFO = {
       </div>
       <div>
         <dt>Also offered</dt>
-        <dd>Free hand saws to borrow, wreaths and greenery for sale, tree shaking and baling, warm-up outdoor fire pit with s'mores for sale.</dd>
+        <dd>Free hand saws to borrow, wreaths and garland for sale, tree shaking and baling, warm-up outdoor fire pit with s'mores for sale.</dd>
       </div>
       <div>
         <dt>Payment</dt>
